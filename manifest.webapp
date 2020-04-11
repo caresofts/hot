@@ -1,0 +1,19 @@
+{
+  "version": "1.0.7",
+  "type": "certified",
+  "name": "JioHots",
+  "display": "JioHots",
+  "origin": "app://jiohots.jio.com",
+  "description": "Wifi Hotspot app for jioPhone",
+  "launch_path": "/index.html",
+  "icons": {
+    "112": "/icons/JioHots_112.png",
+    "84": "/icons/JioHots_84.png",
+    "56": "/icons/JioHots_56.png"  
+  }, 
+  "permissions": { "settings":{"access":"readwrite"} }, 
+  "developer": {
+    "name": "Bikash Das",
+    "url": "https://www.jio.com"
+  }
+}

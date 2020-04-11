@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#title, #title h1 {
+  display: block;
+  position:absolute; top:0; left: 0; width: 100%; height: 25px;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 300;
+  background: rgb(111, 2, 181);
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  z-index:1;
+}
+#image {
+  position:relative;
+  z-index:-2;
+}
+#wifin, #wifif {
+  display: block;
+  height: 66px;
+  position:fixed; bottom:196; left:51;
+}
+#instr {
+  display: block;
+  position:fixed; bottom:30; left: 3; right: 3;
+}
+#statusbox {
+  display: block;
+  border: 2px solid #73AD21;
+  margin: 1;
+  padding-left: 4px;padding-top: 1px;padding-bottom: 1px;
+}
+#ssidbox, #lowbox, #lowbox2 {
+  display: block;
+  border: 2px solid #73AD21;
+  margin: 1;
+  padding-left: 4px;padding-top: 1px;padding-bottom: 1px;
+  font-size: 16px;
+}
+
+#lowbox {
+  display: block;
+  padding-left: 4px;
+}
+
+#ssid {
+  font-size: 17px;
+}
+#CurPass {
+  font-size: 17px;
+}
+#SecType {
+  font-size: 16px;
+}
+#status {
+  font-size: 16px;
+}
+#extra {
+  font-size: 15px;
+}
+
+#softkeys {
+  position: fixed; bottom: 0; left: 0; width: 100%; height: 29px;
+  background: #dadada;
+  padding: 3px 5px;
+}
+
+#softkeys > * {
+  display: inline-block;
+  width: 72px;
+  padding: 0 5px;
+}
+
+#softkey-left, #softkey-right {
+  font-weight: 600;
+  font-size: 16px;
+  color: #323232;
+}
+
+#softkey-right {
+  text-align: right;
+}
+
+#softkey-center {
+  font-weight: 400;
+  font-size: 14px;
+  width: 76px;
+  color: #323232;
+  text-align: center;
+}
+
